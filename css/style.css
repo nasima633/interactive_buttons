@@ -1,0 +1,128 @@
+
+/* we used this styles from AI and the color paltae is choosen by us */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f3ee;
+    color: #26354d;
+}
+
+
+/* Main title */
+
+.tittle {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+
+/* Subtitle */
+
+.subtittle {
+    text-align: center;
+    color: #667085;
+    margin-bottom: 40px;
+}
+
+
+/* Cards container */
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* Cards */
+
+.cards {
+    width: 400px;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(5, 5, 5, 0.1);
+}
+
+.cards h3 {
+    font-size: 25px;
+    color: #6334d8;
+
+    margin-bottom: 15px;
+}
+
+.cards > p {
+    color: #59677d;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* List container */
+
+.ul-div {
+    background-color: #f3f0ff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    margin-bottom: 25px;
+}
+
+
+/* List */
+
+.ul {
+    padding-left: 20px;
+}
+
+.ul li {
+    margin-bottom: 12px;
+    color: #3f4b60;
+}
+
+.ul li:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Button */
+
+.btn {
+    display: block;
+
+    margin: 0 auto;
+
+    padding: 12px 30px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #6334d8;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5125bd;
+}
